@@ -40,7 +40,8 @@ interface Tag {
     value: string;
 }
 
-interface HostEntity {
+interface DynatraceEntity {
+
     displayName: string;
     entityId: string;
     firstSeenTms: number;
