@@ -17,7 +17,7 @@ interface NamespaceStatus {
     phase: NamespacePhase;
 }
 
-interface KubernetesNamespace {
+export interface KubernetesNamespace {
     metadata: NamespaceMetadata;
     spec: NamespaceSpec;
     status: NamespaceStatus;
@@ -28,7 +28,7 @@ interface NamespaceListMetadata {
     continue?: string;
 }
 
-interface NamespaceListResponse {
+export interface NamespaceListResponse {
     kind: "NamespaceList";
     apiVersion: string;
     metadata: NamespaceListMetadata;

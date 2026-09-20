@@ -36,7 +36,7 @@ type NewRelicAlertSeverity =
     | "CRITICAL"
     | "NOT_CONFIGURED";
 
-interface NewRelicEntity {
+export interface NewRelicEntity {
     guid: string;
     name: string;
     entityType: NewRelicEntityType;
@@ -64,7 +64,7 @@ interface NewRelicActor {
     entitySearch: NewRelicEntitySearch;
 }
 
-interface NewRelicEntitySearchResponse {
+export interface NewRelicEntitySearchResponse {
     data: {
         actor: NewRelicActor;
     };

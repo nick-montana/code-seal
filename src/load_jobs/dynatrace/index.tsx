@@ -1,26 +1,13 @@
-
-
-
-
+import type { DynatraceEntityService } from './types';
+import { loadDynatraceServiceEntities } from './utils';
 
 /**
- * Short, one-line summary of what the function does.
+ * Returns the Dynatrace service entities read from the mocked HTTP response.
  *
- * Longer description or details about the logic, edge cases,
- * or business rules can go here.
+ * @returns The service entities from `src/http/dynatrace_service_entities_response.json`.
  *
- * @param paramName - Description of what this parameter represents.
- * @param optionalParam - Description of an optional parameter.
- * @returns Description of what the function outputs.
- *
- * @throws {SomeError} Description of why or when this error is thrown.
- *
- * @example
- * ```typescript
- * const result = myFunction('data');
- * ```
+ * @throws {Error} If the response file cannot be read or parsed.
  */
-export function myFunction(paramName: string, optionalParam?: number): boolean {
-  // Logic
-  return true;
+export async function getDynatraceServiceEntities(): Promise<DynatraceEntityService[]> {
+  return loadDynatraceServiceEntities();
 }

@@ -3,7 +3,7 @@ interface ServiceNowReference {
     value: string;
 }
 
-interface CmdbCiService {
+export interface CmdbCiService {
     sys_id: string;
     name: string;
     sys_class_name: string;
@@ -24,6 +24,6 @@ interface CmdbCiService {
     u_neubird_monitored: string;
 }
 
-interface CmdbCiServiceListResponse {
+export interface CmdbCiServiceListResponse {
     result: CmdbCiService[];
 }
