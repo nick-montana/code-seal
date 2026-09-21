@@ -1,9 +1,9 @@
-# harmonyze-senior-software-engineer-ai-agents
+# Code Seal
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 TODO: Put more badges here.
 
-tech skill demo for Harmonyze software engineer position
+Code Seal is a data integrity ETL process that uses common vendor solutions to model out enterprise technology entities into a consistent and usable format called a 'deployable asset'.
 
 TODO: Fill out this long description.
 
@@ -21,12 +21,6 @@ TODO: Fill out this long description.
 ## Security
 
 ## Background
-
-![Job Description_databases](docs/pics/job_description_tools.png)
-
-### Showcase qualifications
-![Job Description_databases](docs/pics/database_job_description.png)
-(Greenspan, Senior Software Engineer, _What We're looking for_).
 
 
 ### Deployable Assets
