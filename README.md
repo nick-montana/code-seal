@@ -22,6 +22,9 @@ TODO: Fill out this long description.
 
 ## Background
 
+<img width="1920" height="1080" alt="preview_scene3_v2" src="https://github.com/user-attachments/assets/f2dcf06c-cd2d-4bb4-9ffe-eacc305451a3" />
+
+
 
 ### Deployable Assets
 
